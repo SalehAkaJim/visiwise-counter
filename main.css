@@ -20,27 +20,27 @@ body {
 
 body {
   align-items: center;
-  background-color: #fafafa;
+  background-color: #fff;
   display: grid;
-  grid-template-rows: 80px auto;
+  grid-template-rows: 60px auto;
 }
 
 .container {
-  color: #333;
+  color: #fff;
   margin: 0 auto;
   text-align: center;
-  background-color: #fff;
+  background-color: #f56414;
   padding: 56px;
-  box-shadow: 1px 29px 91px 16px rgba(0, 0, 0, 0.04);
-  -webkit-box-shadow: 1px 29px 91px 16px rgba(0, 0, 0, 0.04);
-  -moz-box-shadow: 1px 29px 91px 16px rgba(0, 0, 0, 0.04);
-  border-radius: 16px;
+  -webkit-box-shadow: 0px 25px 61px 18px rgba(245, 100, 20, 0.3);
+  -moz-box-shadow: 0px 25px 61px 18px rgba(245, 100, 20, 0.3);
+  box-shadow: 0px 25px 61px 18px rgba(245, 100, 20, 0.3);
+  border-radius: 24px;
 }
 
 h1 {
   font-size: 46px;
   letter-spacing: 0.125rem;
-  color: #f56414;
+  color: #fff;
   margin-bottom: 32px;
 }
 
@@ -49,13 +49,13 @@ li {
   font-size: 1.5em;
   list-style-type: none;
   padding: 1em;
-  color: #a1a1aa;
+  color: #fff;
 }
 
 li span {
   display: block;
   font-size: 4.5rem;
-  color: #27272a;
+  color: #fff;
 }
 
 .emoji {
