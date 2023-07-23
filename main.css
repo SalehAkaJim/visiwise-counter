@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+/* general styling */
+:root {
+  --smaller: 0.75;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  align-items: center;
+  background-color: #fafafa;
+  display: grid;
+  grid-template-rows: 80px auto;
+}
+
+.container {
+  color: #333;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  padding: 56px;
+  box-shadow: 1px 29px 91px 16px rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: 1px 29px 91px 16px rgba(0, 0, 0, 0.04);
+  -moz-box-shadow: 1px 29px 91px 16px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+}
+
+h1 {
+  font-size: 46px;
+  letter-spacing: 0.125rem;
+  color: #f56414;
+  margin-bottom: 32px;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  color: #a1a1aa;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+  color: #27272a;
+}
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span {
+  font-size: 4rem;
+  padding: 0 0.5rem;
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+
+  li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+
+  li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+}
+
+.logoDiv {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin: auto;
+}
+
+.logo {
+  height: 32px;
+  width: auto;
+}
