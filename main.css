@@ -21,13 +21,15 @@ body {
 body {
   align-items: center;
   background-color: #fff;
-  display: grid;
-  grid-template-rows: 60px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
 }
 
 .container {
   color: #fff;
-  margin: -80px auto 0;
+  margin: 0 auto;
   text-align: center;
   background-color: #f56414;
   padding: 56px;
@@ -82,14 +84,7 @@ li span {
   }
 }
 
-.logoDiv {
-  display: flex;
-  height: 100%;
-  align-items: center;
-  margin: auto;
-}
-
 .logo {
-  height: 32px;
+  height: 64px;
   width: auto;
 }
